@@ -15,7 +15,7 @@ import './person.css';
 //     }
 // }
 
- const Person = ({name, age, click, children, changed}) => {
+ const Person = ({name, age, click, children, changed, index}) => {
     return(
         <div className="Person">
             <p onClick={click}>Hello my name is {name}. I am {age} years old</p>
